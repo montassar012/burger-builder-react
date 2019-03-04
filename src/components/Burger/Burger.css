@@ -1,14 +1,15 @@
-:local(.Burger){
+.burgerContainer {
     width: 100%;
     margin: auto;
-    height: 250px;
+    height: 400px;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+    max-width: 600px
 }
 
 @media (min-width: 500px) and (max-height: 400px){
-    :local(.Burger){
+    .burgerContainer{
         width:350px;
         height: 300px;
     }
@@ -17,7 +18,7 @@
 
 
 @media (min-width: 500px) and (max-height: 401px){
-    :local(.Burger){
+    .burgerContainer{
         width:450px;
         height: 400px;
 
@@ -27,7 +28,7 @@
 
 
 @media (min-width: 1000px) and (max-height: 700px){
-    :local(.Burger){
+    .burgerContainer{
         width:700px;
         height: 600px;
 
